@@ -220,14 +220,15 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.webrtc": {
-      "version": "file:D:/Nextcloud/Internship/com.unity.webrtc",
+      "version": "https://github.com/Unity-Technologies/com.unity.webrtc.git",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
         "com.unity.modules.jsonserialize": "1.0.0",
         "com.unity.editorcoroutines": "1.0.0",
         "com.unity.modules.audio": "1.0.0"
-      }
+      },
+      "hash": "f7b215eea855ed869f69c93c7619ad35219f90fc"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
