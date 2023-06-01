@@ -183,7 +183,7 @@ namespace Unity.WebRTC.Samples
         {
             Debug.Log("Starting websocket");
 
-            ws = new WebSocket("ws://145.90.222.224:8000");
+            ws = new WebSocket("ws://localhost:8000");
 
             ws.OnMessage += (sender, e) =>
             {
@@ -219,6 +219,7 @@ namespace Unity.WebRTC.Samples
             };
 
             ws.Connect();
+            Debug.Log("Connected websocket");
 
             peerConnectionSenders = new List<RTCRtpSender>();
 
