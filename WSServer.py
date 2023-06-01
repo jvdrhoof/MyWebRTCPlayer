@@ -37,7 +37,7 @@ def run_server(address, port):
 
 
 def main(argv):
-    address = '145.90.222.224'
+    address = 'localhost'
     port = 8000
     opts, args = getopt.getopt(argv,"ha:p:",["address=","port="])
     for opt, arg in opts:
